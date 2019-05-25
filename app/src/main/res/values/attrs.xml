@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LayeredButton">
+        <attr name="buttonDrawable" format="reference" />
+        <attr name="clickedColor" format="color" />
+        <attr name="normalColor" format="color" />
+        <attr name="imgWidth" format="dimension" />
+        <attr name="imgHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SemiRotateButton">
+        <attr name="topDrawable" format="reference" />
+        <attr name="bottomDrawable" format="reference" />
+    </declare-styleable>
+
+    <attr name="floatingSearchViewStyle" format="reference" />
+    <declare-styleable name="MyFloatingSearchView">
+        <attr name="fsv_my_searchBarWidth" format="dimension|reference" />
+        <attr name="fsv_my_menu" format="reference" />
+        <attr name="fsv_my_contentBackgroundColor" format="color|reference" />
+        <attr name="fsv_my_cornerRadius" format="dimension|reference" />
+        <attr name="fsv_my_elevation" format="dimension|reference"/>
+        <attr name="fsv_my_icon" format="reference" />
+        <attr name="logo" />
+        <attr name="contentInsetStart" />
+        <attr name="contentInsetEnd" />
+        <attr name="android:divider" />
+        <attr name="android:dividerHeight" />
+        <attr name="android:hint" />
+        <attr name="popupTheme" />
+    </declare-styleable>
+
+</resources>

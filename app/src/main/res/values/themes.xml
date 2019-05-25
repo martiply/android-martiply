@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+    <style name="TranslucentActionBarTheme" parent="Theme.AppCompat.Light">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+
+    </style>
+
+
+    <style name="CustomFloatingSearchViewTheme" parent="Theme.AppCompat.Light">
+        <item name="editTextStyle">@style/searchViewEditTextStyle</item>
+        <item name="android:divider">#c9c9c9</item>
+        <item name="android:dividerHeight">1dp</item>
+        <item name="colorControlNormal">#696969</item>
+        <item name="fsv_my_cornerRadius">0dp</item>
+     </style>
+
+    <style name="searchViewEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:imeOptions">actionSearch</item>
+
+    </style>
+
+</resources>

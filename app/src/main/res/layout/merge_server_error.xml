@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="@string/error_server"
+        android:textColor="@color/grey_lt1"
+        style="@style/textDialogTitle" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_noborder_tr_bluelt_1"
+            android:contentDescription="@string/iv_icon"
+            android:src="@drawable/ic_redo_black_24dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/grey_lt1" />
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_noborder_tr_bluelt_1"
+            android:contentDescription="@string/iv_icon"
+            android:src="@drawable/ic_refresh_lt_24dp" />
+    </LinearLayout>
+
+</LinearLayout>

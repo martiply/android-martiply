@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <LinearLayout
+        android:id="@+id/panel_near_offer"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_dk4"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:textColor="@color/grey_dk4"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:textSize="16sp"
+            android:padding="10dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/panel_simple_store"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="top|center_horizontal"
+        android:background="@color/grey_dk4"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/center"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/ic_place_white_24dp"
+            android:background="@drawable/btn_noborder_tr_bluelt_1"
+            android:contentDescription="@string/iv_icon" />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/ic_close_lt_24dp"
+            android:background="@drawable/btn_noborder_tr_bluelt_1"
+            android:contentDescription="@string/iv_icon" />
+
+    </LinearLayout>
+
+    <com.martiply.android.view.PassTouchEventToolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="top"
+        android:minHeight="?attr/actionBarSize"
+        style="@style/Widget.Styled.ActionBar"
+        android:background="@android:color/transparent"/>
+
+</merge>

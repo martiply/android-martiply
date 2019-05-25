@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="ms_map_anim">450</integer>
+    <integer name="ms_recycler_enter_anim">600</integer>
+
+</resources>

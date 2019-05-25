@@ -1,0 +1,124 @@
+<resources>
+
+    <string name="app_name"  translatable="false">Martiply</string>
+    <string name="copyright_ys"  translatable="false">\u00A9%1$d, %2$s</string>
+    <string name="app_deeplink_mobile" translatable="false">deeplink_mobile</string>
+
+    <!-- small letters -->
+
+
+    <!-- Basics -->
+    <string name="error_permission_location">Martiply needs Location Service to function. Please enable the permission to use the app. </string>
+    <string name="error_location_na">Cannot find current location, using Bandung city as setpoint</string>
+    <string name="error_network">No internet network</string>
+    <string name="error_server">Server error. Please try again later.</string>
+    <string name="error_telephone_none">This device does not support phone call</string>
+
+    <string name="guide_map_area">Double tap to set search area</string>
+    <string name="guide_map_search">Open left panel and type in a keyword to start searching</string>
+    <string name="capital_next" translatable="false">NEXT</string>
+    <string name="capital_gotit" translatable="false">GOT IT</string>
+
+    <!-- Twitter -->
+
+
+    <!-- ActionBar -->
+    <string name="drawer_open" translatable="false">Open drawer</string>
+    <string name="drawer_close" translatable="false">Close drawer</string>
+
+    <!-- Map Activities -->
+    <!-- ViewPager titles -->
+    <string name="n_items_sold_here_by_query"><b>%1$d</b> items related to your search are available in this store</string>
+
+
+    <!-- StoreActivity -->
+    <string name="feature">Feature</string>
+    <string name="store_open">Open</string>
+    <string name="store_phone">Phone</string>
+    <string name="store_address">Address</string>
+    <string name="store_tab_info" translatable="false">INFO</string>
+    <string name="store_tab_inventory" translatable="false">INVENTORY</string>
+    <string name="store_menu_call">Call</string>
+    <string name="store_menu_googleMap">Locate in Google Maps</string>
+
+    <string name="guide_inventory">Type a keyword to find an item in this store</string>
+
+
+    <!-- FragmentStoreOverlay -->
+    <string name="map_store_empty">No stores registered in this area.</string>
+
+    <!-- FeedFragment -->
+
+    <!-- Redeemables -->
+
+    <!-- Settings -->
+
+    <!-- SIDE MENU -->
+    <!-- Side Search -->
+
+
+    <!-- Search -->
+
+
+    <!-- ImageView Content Descriptor -->
+    <string name="iv_icon" translatable="false">generic description</string>
+    <string name="trans_gallery_img" translatable="false">transition_gallery_img</string>
+
+
+    <string name="search">Search</string>
+    <string name="search_clear">clear</string>
+    <string name="search_all">Search all</string>
+    <string name="search_culinary">Search culinary</string>
+    <string name="search_product">Search product</string>
+    <string name="search_stores">Scan stores</string>
+    <string name="search_random">Show any items</string>
+    <string name="search_foundItems">Found %1$d results for %2$s in this area</string>
+    <string name="search_foundStores">Found %1$d stores in this area</string>
+    <string name="search_notfoundItem">No result found for \"%1$s\" in this area</string>
+    <string name="search_notfoundItemInStore">No result found for \"%1$s\" in this store</string>
+
+
+    <!-- Item Activity -->
+    <string name="act_item_title">Details</string>
+
+    <string name="currency_short_rp" translatable="false">Rp.%1$s</string>
+    <string name="currency_short_yen" translatable="false">\%1$s</string>
+
+    <string name="item_sale_composite" translatable="false">%1$s \n(from %2$s, valid until %3$s)</string>
+
+    <string name="item_apparel_gender">Gender</string>
+    <string name="item_apparel_age">Age</string>
+    <string name="item_apparel_size">Size (%1$s sizing)</string>
+    <string name="item_apparel_color">Color</string>
+    <string name="item_apparel_material">Material</string>
+    <string name="item_apparel_sizing_regular">Regular</string>
+
+    <string name="item_menu_findSimilar">Find similar items</string>
+    <string name="item_menu_toStore">Open store page</string>
+
+
+    <string name="date_full" translatable="false">MMMM dd, yyyy</string>
+
+    <array name="pbSimple">
+        <item>#f3b136</item>
+        <item>#ff0099cc</item>
+    </array>
+
+    <!--<string name="fsv_transition_search_layout" translatable="false">fsv_transition_search_layout</string>-->
+    <string name="permission_rationale_title_retry">Martiply requires Location Permission</string>
+    <string name="permission_rationale_body_retry">Your location is needed for Martiply to find items around you.</string>
+    <string name="permission_rationale_title_critical">Without Location Permission, Martiply cannot function</string>
+    <string name="permission_rationale_body_critical">Your location is needed for Martiply to find items around you.\n\nYou can change this manually on <b>Settings > App > Martiply > Permission</b>.</string>
+    <string name="search_try">Item, brand, …</string>
+    <string name="close">close</string>
+    <string name="settings" translatable="false">settings</string>
+    <string name="retry">retry</string>
+    <string name="storename">Store name</string>
+    <string name="step1">Step 1</string>
+    <string name="step2">Step 2</string>
+    <string name="one_more_thing">One more thing</string>
+    <string name="guide_item_text_image">\nClick the result\'s text to see item\'s location or\nClick the image to see
+        the description
+    </string>
+
+</resources>

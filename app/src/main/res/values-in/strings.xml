@@ -1,0 +1,89 @@
+<resources>
+
+
+
+    <!-- small letters -->
+
+    <!-- Basics -->
+    <string name="error_network">Internet tidak terdeteksi</string>
+    <string name="error_server">Server error. Cobalah beberapa saat lagi.</string>
+    <string name="error_telephone_none">Fitur telpon tidak tersedia</string>
+
+    <!-- Twitter -->
+
+
+    <!-- ActionBar -->
+
+
+    <!-- Map Activities -->
+    <!-- ViewPager titles -->
+
+    <!-- StoreActivity -->
+    <string name="feature">Fitur</string>
+    <string name="store_open">buka</string>
+    <string name="store_phone">tel</string>
+    <string name="guide_inventory">Masukkan kata kunci untuk mencari barang-barang di toko ini</string>
+
+
+    <!-- FragmentStoreOverlay -->
+    <string name="map_store_empty">Tak ada toko ditemukan di area pencarian.</string>
+
+
+
+    <!-- FeedFragment -->
+
+    <!-- Redeemables -->
+
+    <!-- Settings -->
+
+    <!-- SIDE MENU -->
+    <!-- Side Search -->
+
+
+    <!-- Search -->
+
+
+    <!-- Menus -->
+    <string name="permission_rationale_title_retry">Martiply memerlukan Ijin Lokasi</string>
+    <string name="permission_rationale_body_retry">Lokasi Anda diperlukan untuk pencarian barang-barang di sekitar Anda.</string>
+    <string name="permission_rationale_title_critical">Tanpa Ijin Lokasi, Martiply tak dapat berfungsi</string>
+    <string name="permission_rationale_body_critical">Lokasi Anda diperlukan untuk pencarian barang-barang di sekitar Anda.\n\nAnda dapat mengubahnya secara manual di <b>Setelan > App > Martiply > Izin</b>.</string>
+    <string name="close">tutup</string>
+    <string name="search_try">Barang, merk, …</string>
+    <string name="retry">ulang</string>
+    <string name="storename">Nama toko</string>
+    <string name="search_notfoundItemInStore">Tak ditemukan hasil untuk \"%1$s\" di toko ini</string>
+    <string name="search_notfoundItem">Tak ditemukan hasil untuk \"%1$s\" di daerah ini</string>
+    <string name="search_foundItems">Ada %1$d hasil untuk %2$s di area ini</string>
+    <string name="search_foundStores">Ada %1$d toko di area ini</string>
+    <string name="error_permission_location">"Martiply memerlukan ijin Servis Lokasi untuk befungsi. "</string>
+    <string name="error_location_na">"Lokasi gagal didapat. Bandung digunakan sebagai setpoint. "</string>
+    <string name="guide_map_area">Double tap layar untuk menentukan area pencarian</string>
+    <string name="guide_map_search">Buka panel kiri dan masukkan kata kunci untuk memulai pencarian</string>
+    <string name="n_items_sold_here_by_query"><b>%1$d</b>produk pencarian tersedia di toko ini</string>
+    <string name="store_address">Alamat</string>
+    <string name="store_menu_call">Telp</string>
+    <string name="store_menu_googleMap">Lokasi di Google Maps</string>
+    <string name="search">Cari</string>
+    <string name="search_clear">hapus</string>
+    <string name="search_all">Cari semua</string>
+    <string name="search_culinary">Cari kuliner</string>
+    <string name="search_product">Cari produk</string>
+    <string name="search_stores">Skan toko</string>
+    <string name="search_random">Lihat produk apapun</string>
+    <string name="act_item_title">Detail</string>
+    <string name="item_apparel_gender">Gender</string>
+    <string name="item_apparel_age">Umur</string>
+    <string name="item_apparel_size">Ukuran (%1$s sizing)</string>
+    <string name="item_apparel_color">Warna</string>
+    <string name="item_apparel_material">Materi</string>
+    <string name="item_apparel_sizing_regular">Regular</string>
+    <string name="item_menu_findSimilar">Cari produk serupa</string>
+    <string name="item_menu_toStore">Laman toko</string>
+    <string name="step1">Langkah 1</string>
+    <string name="step2">Langkah 2</string>
+    <string name="one_more_thing">Ada satu lagi</string>
+    <string name="guide_item_text_image">\nKlik teks dari hasil pencarian untuk melihat lokasi barang atau\nKlik gambar untuk melihat deskripsi
+    </string>
+
+</resources>

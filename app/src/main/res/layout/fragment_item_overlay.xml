@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="50dp"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/single"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img"
+            style="@style/imgItemOverlay"
+            android:contentDescription="@string/iv_icon"
+            android:background="@drawable/wp_crumpled_paper" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/spacing_medium"
+            android:paddingTop="@dimen/spacing_small"
+            android:paddingBottom="@dimen/spacing_small"
+            android:paddingRight="@dimen/spacing_small">
+
+            <TextView
+                android:id="@+id/text"
+                style="@style/textOverlayItemName"/>
+
+            <TextView
+                android:id="@+id/text2"
+                style="@style/textOverlayItemPrice"
+                android:paddingTop="@dimen/spacing_small"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/multiple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/img2"
+            android:contentDescription="@string/iv_icon"
+            style="@style/imgItemOverlayMultiple" />
+
+        <TextView
+            android:id="@+id/text3"
+            style="@style/textOverlayMultipleText" />
+
+    </LinearLayout>
+
+</LinearLayout>

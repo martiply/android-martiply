@@ -1,0 +1,288 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.MyApp.MartiplyStatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/grey_lt4</item>
+        <item name="colorPrimaryDark">@color/grey_dk3</item>
+        <item name="colorAccent">@color/google_blue_dk</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.MyApp" parent="Theme.MyApp.MartiplyStatusBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+
+    </style>
+
+
+    <style name="Widget.Styled.ActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:displayOptions">showHome|useLogo</item>
+        <item name="displayOptions">showHome|useLogo</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="SuperActivityToast_Progress_ProgressBar" parent="android:Widget.Holo.ProgressBar">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+
+    <style name="textDialogTitle">
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="textDialogParagraph">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+
+    <style name="textDialogButtonLabel">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- V.30 -->
+
+    <style name="textHead">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="textHeadReverse" parent="textHead">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="imgIconMenu">
+        <item name="android:layout_width">@dimen/img_icon_small</item>
+        <item name="android:layout_height">@dimen/img_icon_small</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="imgInParagraph">
+        <item name="android:layout_width">@dimen/img_in_paragraph_side</item>
+        <item name="android:layout_height">@dimen/img_in_paragraph_side</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+    <style name="imgRow">
+        <item name="android:layout_width">@dimen/img_icon_large</item>
+        <item name="android:layout_height">@dimen/img_icon_large</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="imgItemOverlayMultiple" parent="imgItemOverlay">
+        <item name="android:src">@drawable/ic_view_headline_black_24dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@color/grey_lt3</item>
+    </style>
+
+    <style name="imgItemOverlay">
+        <item name="android:layout_width">@dimen/img_icon_xlarge</item>
+        <item name="android:layout_height">@dimen/img_icon_xlarge</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:contentDescription">@string/iv_icon</item>
+    </style>
+
+    <style name="textCaretTitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_head</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+
+    </style>
+
+    <style name="textCaretSubtitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:textColor">@color/grey_dk2</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+
+    </style>
+
+    <style name="textRowItemStoreName">
+        <item name="android:textColor">@color/grey_dk1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+
+    </style>
+
+    <style name="textRowItemName">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textSize">@dimen/text_head</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="textRowItemPrice">
+        <item name="android:textColor">@color/google_blue_lt</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="textRowStoreName">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_body</item>
+    </style>
+
+    <style name="textRowStoreAddress">
+        <item name="android:textColor">@color/grey_dk2</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+    </style>
+
+
+
+    <style name="textOverlayItemName">
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:lineSpacingExtra">2sp</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="textOverlayItemPrice">
+        <item name="android:textColor">@color/google_blue_lt</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="textOverlayMultipleText">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:textSize">@dimen/text_caption</item>
+    </style>
+
+    <style name="textParagraph">
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textSize">@dimen/text_head</item>
+    </style>
+
+    <style name="textParagraphReverse" parent="textParagraph">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="textEntryHorizontalHead">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_head</item>
+        <item name="android:textColor">@color/grey_dk3</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="textEntryHorizontal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/spacing_medium</item>
+        <item name="android:paddingRight">@dimen/spacing_medium</item>
+        <item name="android:textSize">@dimen/text_head</item>
+        <item name="android:textColor">@color/grey_dk4</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="textSuggestion">
+        <item name="android:lines">1</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+    </style>
+
+    <style name="bodySmall">
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="textRowAnnounce" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:typeface">sans</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:textColor">@color/grey_dk2</item>
+    </style>
+
+    <style name="dividerDark">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/grey_dk1</item>
+    </style>
+
+    <style name="dividerLight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/grey_lt4</item>
+    </style>
+
+
+    <style name="fabMenu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/spacing_large</item>
+        <item name="android:src">@drawable/ic_more_vert_white_24dp</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="rippleColor">@android:color/white</item>
+    </style>
+
+    <style name="entryTitleTop">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey_dk3</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_xsmall</item>
+    </style>
+
+    <style name="rowMenuPopup" parent="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">@dimen/spacing_large</item>
+        <item name="android:paddingRight">@dimen/spacing_large</item>
+        <item name="android:paddingTop">@dimen/spacing_large</item>
+        <item name="android:paddingBottom">@dimen/spacing_large</item>
+    </style>
+
+    <style name="cardLight" parent="CardView">
+        <item name="android:layout_margin">@dimen/spacing_medium</item>
+        <item name="cardElevation">2dp</item>
+        <item name="cardPreventCornerOverlap">false</item>
+        <item name="contentPadding">0dp</item>
+    </style>
+
+
+
+
+
+</resources>

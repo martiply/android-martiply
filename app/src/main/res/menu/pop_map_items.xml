@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_progress" android:title="" app:actionViewClass="com.martiply.android.view.MenuProgressView" app:showAsAction="always"/>
+    <item android:id="@+id/menu_clear" android:title="@string/search_clear" android:icon="@drawable/ic_close_black_24dp" app:showAsAction="always"/>
+    <!--
+    <group android:id="@+id/menu_filter" android:checkableBehavior="single" app:showAsAction="never">
+        <item android:id="@+id/menu_filter_all" android:title="@string/search_all" android:checked="true"/>
+        <item android:id="@+id/menu_filter_culinary" android:title="@string/search_culinary"/>
+        <item android:id="@+id/menu_filter_product" android:title="@string/search_product"/>
+    </group>
+    <item android:id="@+id/menu_2store" android:title="@string/search_stores"  app:showAsAction="never"/>
+    -->
+
+
+</menu>

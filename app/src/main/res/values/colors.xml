@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="grey_lt1">#ffc6c6c6</color>
+    <color name="grey_lt2">#f4f4f4</color>
+    <color name="grey_lt3">#ececec</color>
+    <color name="grey_lt4">#dadbdb</color>
+    <color name="grey_dk1">#66000000</color>
+    <color name="grey_dk2">#626262</color>
+    <color name="grey_dk3">#acacac</color>
+    <color name="grey_dk4">#646160</color>
+    <color name="google_blue_dk">#ff0099cc</color>
+    <color name="google_blue_lt">#ff33b5e5</color>
+    <color name="blue_op1">#3033b5e5</color>
+
+</resources>

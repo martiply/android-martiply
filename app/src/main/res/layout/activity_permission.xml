@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp_crumpled_paper_bi">
+
+
+    <ImageView
+        android:layout_width="@dimen/img_icon_small"
+        android:layout_height="@dimen/img_icon_small"
+        android:layout_marginLeft="@dimen/spacing_semilarge"
+        android:layout_marginTop="@dimen/spacing_semilarge"
+        android:contentDescription="@string/iv_icon"
+        android:src="@mipmap/ic_launcher_round" />
+
+</LinearLayout>

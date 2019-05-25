@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <com.martiply.android.view.MyMapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <com.martiply.android.view.PassTouchEventToolbar
+                android:id="@+id/toolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="top"
+                android:minHeight="?attr/actionBarSize"
+                style="@style/Widget.Styled.ActionBar"
+                android:background="@android:color/transparent" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <View
+                android:id="@+id/guide_anchor"
+                android:layout_width="@dimen/guide_circle_anchor_side"
+                android:layout_height="@dimen/guide_circle_anchor_side"
+                android:layout_gravity="center"
+                />
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="@dimen/overlay_item_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginBottom="100dp"
+                android:layout_marginTop="@dimen/overlay_item_margin_top"
+                android:orientation="vertical" />
+
+            <com.leo.simplearcloader.SimpleArcLoader
+                android:id="@+id/pb"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:visibility="gone"
+                android:layout_gravity="bottom|right"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="50dp"
+                custom:arc_style="complete_arc"
+                custom:arc_speed="medium"
+                custom:arc_margin="3dp"
+                custom:arc_colors="@array/pbSimple"
+            />
+        </FrameLayout>
+
+        <!-- The navigation drawer -->
+
+        <FrameLayout
+            android:id="@+id/left_drawer"
+            android:layout_width="@dimen/drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start" />
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</merge>
